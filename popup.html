@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <title>Local tube</title>
+    <style>
+        body {
+            font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+            font-size: 100%;
+        }
+
+        #video {
+            display: none;
+        }
+
+        .show {
+            display: block !important;
+        }
+    </style>
+    <script src="popup.js"></script>
+</head>
+<body>
+<div id="status"></div>
+<input id="tab-url" style="width: 300px;" type="text" readonly/>
+<button id="save">Watch offline</button>
+<video id="video" width="400" controls>
+</video>
+</body>
+</html>
